@@ -12,7 +12,7 @@ This R script creates descriptive bar plot for patients with high d dimer and lo
 
 3. The loinc code for platelet is not included in the 4CE Phase2.1 data. To run the code, you need to add loinc code "26515-7" for platelet in LocalPatientObservation.csv file. 
 
-4. Make sure you do not skip the lines 2-3 that re-install the latest FourCePhase2.1Data package. Several functions used by this script and also the obfuscation table are from the FourCePhase2.1Data package.
+4. Do not skip the lines 2-3 that re-install the latest FourCePhase2.1Data package. Several functions used by this script and also the obfuscation table are from the FourCePhase2.1Data package.
 ``` R
 devtools::install_github("https://github.com/covidclinical/Phase2.1DataRPackage", subdir="FourCePhase2.1Data", upgrade=FALSE)
 library(FourCePhase2.1Data)
