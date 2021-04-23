@@ -1,5 +1,5 @@
 # Phase2.1WorkingFolder
-Temporal folder R scripts before wrapping to R package.
+Temporal folder for raw R scripts before wrapping to R package.
 
 # run_platelet_ddimer.R
 This R script creates descriptive bar plot for patients with high d dimer and low platelet
