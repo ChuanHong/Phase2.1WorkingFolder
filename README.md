@@ -13,7 +13,10 @@ This R script creates descriptive bar plot for patients with high d dimer and lo
 ## 3. Set the output directory in line 8 of run_platelet_ddimer.R:
 
 ``` R
-dir.output="/4ceData/Output"
+dir.output="/4ceData/Output" ## you can change it to another path as your output directory
 ```
 
 ## 4. Run script run_platelet_ddimer.R
+
+## 5. If there is no error, the output figures will be found in the output directory "/4ceData/Output", or the directory you specified.
+
